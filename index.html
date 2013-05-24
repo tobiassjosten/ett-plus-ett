@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+
+    <title>Ett plus ett</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="Tobias Sjösten">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+    <link rel="stylesheet" href="lib/css/fullscreen-img.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Ett plus ett</h1>
+            </section>
+
+            <section>
+                <h2>Tobias Sjösten</h2>
+                <p>@tobiassjosten</p>
+            </section>
+
+            <section data-state="love">
+                <p style="font-size:5em;margin-top:.3em;">❤</p>
+                <p><img style="height:150px;background:transparent;border:none;box-shadow:none;margin:0 50px;" src="img/drupal-logo.svg"> <img style="height:150px;background:transparent;border:none;box-shadow:none;margin:0 50px;" src="img/symfony-logo.png"></p>
+            </section>
+
+            <section fullscreen-img="img/baby-hacker.jpg">
+            </section>
+
+            <section>
+                <h2>$this -> ; ; { () } # wtf?</h2>
+            </section>
+
+            <section>
+                <section fullscreen-img="img/superman.jpg">
+                </section>
+
+                <section>
+                    <h2>1 + 0 = 1</h2>
+                </section>
+            </section>
+
+            <section>
+                <section fullscreen-img="img/shoulders-of-giants.gif">
+                    <h2 style="color:#000">"On the shoulders of giants"</h2>
+                </section>
+
+                <section>
+                    <h2>1 + 1 = 2</h2>
+                </section>
+            </section>
+
+            <section>
+                <section fullscreen-img="img/admiration.jpg">
+                </section>
+
+                <section>
+                    <h2>1 + 1 = 2 ^ X</h2>
+                </section>
+            </section>
+
+            <section>
+                <img style="height:80%;background:transparent;border:none;margin:0 50px;" src="img/drupal-logo.svg">
+            </section>
+
+            <section>
+                <section>
+                    <h2>Drupal + Symfony</h2>
+                </section>
+
+                <section>
+                    <h4>Drupal + Symfony</h4>
+                    <h2>Kraschar oftare</h2>
+                </section>
+
+                <section>
+                    <h4>Drupal + Symfony</h4>
+                    <h2>Mycket latare</h2>
+                </section>
+
+                <section>
+                    <h4>Drupal + Symfony</h4>
+                    <h2>Mer konkurrens</h2>
+                </section>
+            </section>
+
+            <section>
+                <h1>Tack!</h1>
+                <br><br>
+                <h2>@tobiassjosten</h2>
+            </section>
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: 'lib/js/fullscreen-img.js' },
+                // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+        });
+    </script>
+</body>
+</html>

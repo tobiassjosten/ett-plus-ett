@@ -1,0 +1,63 @@
+.reveal .progress {
+    height: 12px;
+}
+
+.love .reveal .state-background {
+    /* background: #525C5E; */
+    background: #955;
+}
+
+.columns {
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+}
+
+.planets1 .reveal .state-background {
+    background: url(../planets1.svg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: none !important;
+}
+
+.planets2 .reveal .state-background {
+    background: url(../planets2.svg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: none !important;
+}
+
+.components {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.weak {
+    color: #666;
+}
+
+pre {
+    background: transparent !important;
+    box-shadow: none !important;
+    font-size: 1em !important;
+    margin: 0 !important;
+    overflow-y: hidden;
+    padding: 0 !important;
+}
+
+pre code {
+    background: transparent !important;
+    color: #CCC;
+    overflow-y: hidden;
+}
